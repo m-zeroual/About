@@ -1,0 +1,118 @@
+:root {
+    --background-color: #ffffff;
+    --text-color: #000000;
+    --profile-border: #ddd;
+    --link-color: #00bfff;
+    --icon-opacity: 0.7;
+    
+    .profile-img {
+        border: 5px solid black;
+    }
+
+}
+
+[data-theme="dark"] {
+    --background-color: #121212;
+    --text-color: #ffffff;
+    --profile-border: #333;
+    --link-color: #4ecdc4;
+    --icon-opacity: 0.8;
+
+    .profile-img {
+        border: 5px solid white;
+    }
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+
+h1 {
+    font-size: 36px;
+}
+
+.location {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: var(--text-color);
+}
+
+.description {
+    font-size: 16px;
+    max-width: 600px;
+    margin: 0 auto 30px;
+    line-height: 1.5;
+}
+
+.social-icons img {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    opacity: var(--icon-opacity);
+    transition: opacity 0.3s ease;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin-bottom: 20px;
+}
+
+.social-icons img:hover {
+    opacity: 1;
+}
+
+.footer {
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+.footer a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.toggle-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    opacity: var(--icon-opacity);
+    transition: opacity 0.3s ease;
+}
+
+/* .toggle-btn:hover { */
+    /* background-color: var(--text-color); */
+/* } */
+
+
+
+
