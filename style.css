@@ -4,11 +4,6 @@
     --profile-border: #ddd;
     --link-color: #00bfff;
     --icon-opacity: 0.7;
-    
-    .profile-img {
-        border: 5px solid black;
-    }
-
 }
 
 [data-theme="dark"] {
@@ -17,10 +12,6 @@
     --profile-border: #333;
     --link-color: #4ecdc4;
     --icon-opacity: 0.8;
-
-    .profile-img {
-        border: 5px solid white;
-    }
 }
 
 body {
@@ -39,7 +30,6 @@ body {
     text-align: center;
     padding: 20px;
 }
-
 
 h1 {
     font-size: 36px;
@@ -108,11 +98,3 @@ h1 {
     opacity: var(--icon-opacity);
     transition: opacity 0.3s ease;
 }
-
-/* .toggle-btn:hover { */
-    /* background-color: var(--text-color); */
-/* } */
-
-
-
-
