@@ -12,20 +12,20 @@ function toggleTheme() {
 
     if (targetTheme === 'light')
     {
-        theme.setAttribute('src', '../icons/theme/theme-icon-black.svg')
-        linkedin.setAttribute('src', '../icons/linkedin/linkedin-icon-black.svg')
-        github.setAttribute('src', '../icons/github/github-icon-black.svg')
-        email.setAttribute('src', '../icons/email/email-icon-black.svg')
-        medium.setAttribute('src', '../icons/medium/medium-icon-black.svg')
-        resume.setAttribute('src', '../icons/resume/resume-icon-white.svg')
+        theme.setAttribute('src', './icons/theme/theme-icon-black.svg')
+        linkedin.setAttribute('src', './icons/linkedin/linkedin-icon-black.svg')
+        github.setAttribute('src', './icons/github/github-icon-black.svg')
+        email.setAttribute('src', './icons/email/email-icon-black.svg')
+        medium.setAttribute('src', './icons/medium/medium-icon-black.svg')
+        resume.setAttribute('src', './icons/resume/resume-icon-white.svg')
     }
     else {
-        theme.setAttribute('src', '../icons/theme/theme-icon-white.svg')
-        linkedin.setAttribute('src', '../icons/linkedin/linkedin-icon-white.svg')
-        github.setAttribute('src', '../icons/github/github-icon-white.svg')
-        email.setAttribute('src', '../icons/email/email-icon-white.svg')
-        medium.setAttribute('src', '../icons/medium/medium-icon-white.svg')
-        resume.setAttribute('src', '../icons/resume/resume-icon-black.svg')
+        theme.setAttribute('src', './icons/theme/theme-icon-white.svg')
+        linkedin.setAttribute('src', './icons/linkedin/linkedin-icon-white.svg')
+        github.setAttribute('src', './icons/github/github-icon-white.svg')
+        email.setAttribute('src', './icons/email/email-icon-white.svg')
+        medium.setAttribute('src', './icons/medium/medium-icon-white.svg')
+        resume.setAttribute('src', './icons/resume/resume-icon-black.svg')
     }            
     document.documentElement.setAttribute('data-theme', targetTheme);
 }
